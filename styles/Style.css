@@ -115,29 +115,36 @@
 
     .btn-botones{
         display: flex;
-        align-items: flex-start;
-        padding:1% 0;
+        align-items:center;
+        padding:0% 0% 0%;
         position: absolute;
-        width: 60%;
+        width: 30%;
         left: 12%;
-        top:80%;
+        top:81%;
         gap: 15px;
+        
     } 
         
 
     .btn-encriptar{
-        align-items:center;
-        padding: 2%;
-        gap:10px;
-        width :25%;
-        background-color:var(--color-terciario);
-        border-radius:24px;
-        font-family:"inter";
-        font-size:20px;
-        line-height: 19px;
-        text-align: center;
-        color:var(--color-segundario);
-        box-shadow:0px 24px 32px -8px black;
+      box-sizing:border-box;
+      display:flex;
+      flex-direction:row;
+      align-items:flex-start;
+      justify-content: center;
+      padding:2%;
+      gap:10px;
+      width:60%;
+      background:var(--color-terciario);
+      border:1px solid var(--color-terciario);
+      border-radius:24px;
+      font-family:"inter";
+      font-weight:400;
+      font-size:20px;
+      line-height:19px;
+      text-align:center;
+      color: var(--color-quinto);
+      box-shadow:0px 24px 32px -8px black;
         }
     .btn-desencriptador{
         box-sizing:border-box;
@@ -147,7 +154,7 @@
         justify-content: center;
         padding:2%;
         gap:10px;
-        width:25%;
+        width:60%;
         background:var(--color-quinto);
         border:1px solid var(--color-terciario);
         border-radius:24px;
@@ -255,17 +262,13 @@
         
         
       }
-      .btn-copiar.ajustar{
+      /* .btn-copiar.ajustar{
         justify-content: space-between;
 
-      }
+      } */
       .footer{
       position: relative;
-      
-      padding: 24px;
-      height: 90%;
-      top: 90%;
-      text-align:left;
+      text-align:center;
       
       }
       
@@ -298,9 +301,9 @@
       font-size:20px;
       }
       .btn-botones{
-      width:130%;
+      width:60%;
       left:10%;
-      top:70%;
+      top:72%;
       }
       .btn-encriptar,
       .btn-desencriptar{
@@ -310,8 +313,8 @@
       
       .btn-encriptar:hover,
       .btn-desencriptar:hover{
-        margin:03%;
-        width:47.5%;
+        margin:0%;
+        width:30.5%;
         padding:1.8%;
       }
       .btn-copiar{
@@ -321,7 +324,7 @@
         padding:1.6%;
         
       }
-      .menssaje{
+      .mensaje{
         width:71%;
         height:23%;
         left:10%;
@@ -335,9 +338,11 @@
         .mensaje-final{
           width: auto;
           border: none;
+          top: 5%;
+          margin:0%;
         }
         .mensaje-final.ajustar{
-          width: 70%;
+          width: auto;
           height: 70%;
           top: 62px;
           left: 1032px;
@@ -356,7 +361,8 @@
         }
   .footer{
     position: relative;
-    justify-content:center;       
+    top: 92%;
+          
   } 
 }
 

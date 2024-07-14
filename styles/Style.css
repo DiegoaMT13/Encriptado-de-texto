@@ -198,7 +198,7 @@
 }
 
 .mensaje-final{
-  width:80%;
+  width:90%;
   margin: auto;
   top: 2%;
   font-family:"inter";
@@ -212,7 +212,7 @@
   }
   .mensaje-final.ajustar{
     width: 70%;
-    height: 600px;
+    height: 500px;
     top: 62px;
     left: 1032px;
     gap: 0px;

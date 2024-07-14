@@ -1,5 +1,6 @@
 
 
+
 function encriptar(){
     let texto = document.getElementById("texto1").value;
     let mensajeTitulo= document.getElementById("titulo-mensaje");

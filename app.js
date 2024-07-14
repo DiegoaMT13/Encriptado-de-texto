@@ -56,7 +56,7 @@ function desencriptar(){
                      .replace(/ober/gi,"o")  
                      .replace(/ufat/gi,"u") ; 
     if(texto.length != 0){
-        document.getElementById("texto1").value = textoCodigodes
+        // document.getElementById("texto1").value = textoCodigodes
         document.getElementById("titulo-mensaje").value= textoCodigodes
         mensajeTitulo.textContent=textoCodigodes;
         parrafo.textContent="";

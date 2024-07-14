@@ -11,22 +11,22 @@
     --color-quinto:white;
     
     
---fuente-monserat: "Montserrat", sans-serif;
---fuente-korona: "Krona One", sans-serif;
+    --fuente-monserat: "Montserrat", sans-serif;
+    --fuente-korona: "Krona One", sans-serif;
 
   
   }
   
-  *{
+     *{
   
       padding: 0;
       margin: 0;
     
     }
-    body{
-      height: 100vh; 
-      background-color: var(--color-segundario);
-      box-sizing: border-box;
+        body{
+          height: 100vh; 
+          background-color: var(--color-segundario);
+          box-sizing: border-box;
     }
         
     .container-logo-alura{
@@ -120,9 +120,9 @@
         position: absolute;
         width: 60%;
         left: 12%;
-        top:50%;
+        top:80%;
         gap: 15px;
-       
+    } 
         
 
     .btn-encriptar{
@@ -158,20 +158,16 @@
         text-align:center;
         color: var(--color-terciario);
         box-shadow:0px 24px 32px -8px black;
-        }
-    
-    
-    }
-    
+      }
    
-   .menssaje{
+   .mensaje{
     display: flex;
     flex-direction:row-reverse;
     margin: auto;
 
    }
    
-.menssaje{
+.mensaje{
   display:flex;
   justify-content:center;
   position:absolute;
@@ -212,7 +208,7 @@
   }
   .mensaje-final.ajustar{
     width: 70%;
-    height: 600px;
+    height: 500px;
     top: 62px;
     left: 1032px;
     gap: 0px;
@@ -221,7 +217,7 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
-    text-align: left;
+    text-align:center;
     border: none;
 
     
@@ -299,7 +295,7 @@
       top:67%;   /*baja el elemento*/
       }
       .terminos p{
-      font-size:16px;
+      font-size:20px;
       }
       .btn-botones{
       width:130%;
@@ -358,22 +354,11 @@
         .mensaje-encriptado img{
           display: none;
         }
-.footer{
-  position: relative;
-  justify-content:center;
- 
-
-  
-         
- }
-        
-
-       
-      
-    
-
-
-  }
+  .footer{
+    position: relative;
+    justify-content:center;       
+  } 
+}
 
     
   

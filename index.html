@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="ico" href="./imagenes/Logo-1.ico">
+    <link rel="stylesheet" href="./styles/Style.css">
+</head>
+
+<body>
+    <header>
+        <a class="container-logo-alura" href="https://www.aluracursos.com" target="_blank">
+            <img src="./imagenes/Logo-1.png" alt="logo"></a>
+    
+        <main class="presentación">
+                <textarea name="input-texto" class="texto"  id="texto1" cols="30" rows="10" placeholder=>Ingrese el texto aquí</textarea>
+
+                <div class="terminos">
+                    <img src="./imagenes/bi_exclamation-circle-fill.png" alt="">
+                    <p>Solo letras minúsculas y sin acento</p>
+                 </div> 
+                 
+                <div class="btn-botones">
+                    
+                    <button class="btn-encriptar"type="button" type="button" onclick="encriptar()">Encriptar!</button> 
+                    <button class="btn-desencriptador" type="button" onclick="desencriptar()">Desencriptar!</button>
+                </div>
+        </main>  
+                <section class="menssaje">
+                     <div class="mensaje-encriptado">
+                        <img src="./imagenes/Muñeco.png" alt="muñeca" id="muñeca">
+                        <textarea class="mensaje-final" id="titulo-mensaje" placeholder=>Ningún mensaje fue encontrado</textarea>
+                        <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+                        <button class="btn-copiar" id="oculto" type="button" onclick="copiar()">Copiar</button></button>
+                     </div>     
+                </section>
+    </header>
+ <footer class="footer">
+    <a href="https://github.com/DiegoaMT13?tab=repositories" target="_blank">
+        <img src="./imagenes/github.png" alt="logo"></a>
+        <a href="https://www.linkedin.com/in/diego-mt/" target="_blank">
+            <img src="./imagenes/linkedin.png" alt="logo2"></a>
+ </footer> 
+  <script src="app.js"></script>
+</body>
+</html>
